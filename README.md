@@ -32,7 +32,7 @@ This study focuses on:
 
 ### References
 - Japan Organization for Metals and Energy Security (JOGMEC), 2020. [World’s First Successful Excavation of Cobalt-Rich Seabed in the Deep Ocean](https://www.jogmec.go.jp/english/news/release/news_01_000033.html).
-- Haruhisa Morozumi et al, 2020. Characteristics of seafloor hydrothermal deposits investigated by JOGMEC.
+- Morozumi et al, 2020. Characteristics of seafloor hydrothermal deposits investigated by JOGMEC.
 - Bannard, J.E., 1975. Effect of density on the electrical conductance of aqueous sodium chloride solutions. *Journal of Applied Electrochemistry*, 5, 43-53.
 - Nakayama and Saito, 2016. Practical marine TDEM systems using ROV for ocean bottom hydrothermal deposits.
 - Pelton, W.H. et al., 1978. Mineral discrimination and removal of inductive coupling with multifrequency IP. *Geophysics*.
