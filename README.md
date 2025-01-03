@@ -1,4 +1,5 @@
-# KEGS2025
+# 1D inversion of time-domain electromagnetic data with induced polarization effects for a sea-floor hydrothermal deposit
+ KEGS Symposium, March 1, 2025, Toronto Canada
 
 Seafloor hydrothermal deposits are polymetallic massive sulfide ore deposits formed by the precipitation of metal components contained in hot water ejected from the seafloor (JOGMEC, 2020). These deposits exhibit several key physical properties relevant to geophysical exploration:
 
