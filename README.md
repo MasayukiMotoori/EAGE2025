@@ -1,47 +1,30 @@
 # 1D inversion of time-domain electromagnetic data with induced polarization effects for a sea-floor hydrothermal deposit
- KEGS Symposium, March 1, 2025, Toronto Canada
+EAGE Near Surface Geoscience Conference & Exhibition 2025
 
-Seafloor hydrothermal deposits are polymetallic massive sulfide ore deposits formed by the precipitation of metal components contained in hot water ejected from the seafloor (JOGMEC, 2020). These deposits exhibit several key physical properties relevant to geophysical exploration:
+**Masayuki Motoori¹², Lindsey J. Heagy¹, Gosuke Hoshino², Kunihito Yamamoto², Haruhisa Morozumi², Kunpei Nagase², Shingo Sugimoto²**  
+¹ University of British Columbia Geophysical Inversion Facility  
+² Japan Organization for Metals and Energy Security (JOGMEC)
 
-1. **Depth**: Deposits are located at depths of 700-2000m below sea level.
-2. **Seawater Conductivity**: Seawater in these regions has high conductivity (3-3.5 S/m).
-3. **Ore Body Dimensions**: Ore bodies typically extend hundreds of meters horizontally and tens of meters vertically (Morozumi et al., 2020).
-4. **Exposure**: Ore bodies are often exposed on the seafloor.
+### Summary
+Seafloor hydrothermal deposits are polymetallic massive sulfide ore deposits formed by the precipitation of metal components contained in hot water ejected from the seafloor. The sea depth is 700- 2000m. Ore bodies extend hundreds of meters horizontally and tens of meters vertically. Ore bodies are exposed on the sea floor. Some lab-based petrophysics study indicates that resistivity and chargeability are diagnostic physical properties, even compared with seawater (3.0-3.5 S/m). Time-domain electromagnetic methods (TEM) are sensitive to variations in resistivity. WISTEM (Waseda integrated seafloor time-domain electromagnetic exploration) surveys have been conducted in several areas. Negative transients, which are due to induced polarization effects (IP), have been observed for data collected over known deposits. It is important to understand the system response to invert these data. The pressure vessel (PV), which contains the transmitter and receivers, can impact the data. We use numerical simulations to quantify these effects, and we develop a workflow for estimating a linear filter which captures the effects of the PV. This filter will then be used in subsequent simulations and inversions. Finally, we perform one-dimensional time-domain IP inversion of the field data. The estimated resistivity and IP parameters agree with physical property measurements from the area.
 
-Laboratory studies have shown that resistivity and chargeability are diagnostic physical properties of these deposits, making them distinguishable from seawater (Nakayama et al., 2012). Hydrothermal water temperatures are measured to range from 200 to 400 °C. Studies indicate that higher temperatures correspond to lower resistivity in both seawater (Bannard, 1975) and rock samples (Takakura, 2016).
+### Main objectives
+Estimate induced polarization parameters for hydrothermal deposits from deep-sea time-domain electromagnetic data
 
-### Geophysical Methods
-Time-domain electromagnetic (TEM) methods are highly sensitive to resistivity variations. The WISTEM (Waseda Integrated Seafloor Time-Domain Electromagnetic Exploration) system has been effectively used for such studies (Nakayama and Saito, 2016). Surveys conducted in several areas have demonstrated the utility of fixed measurements where the WISTEM system is landed on the seafloor. In these measurements, negative transients attributed to induced polarization (IP) effects have been observed in data collected over known deposits (Nakayama, Motoori, and Saito, 2019).
+### New aspects
+Estimate a linear filter characterizing new marine TEM system response, Marine EM inversion with IP parameters, Open-source software application
 
-In 2018, a survey was conducted by JOGMEC in the Okinawa Trough, and data from the Fix-2 area (Area-2) highlighted the relevance of IP effects in the presence of sulfide-rich materials. A synthetic study by Motoori and Heagy (2024) simulated negative transients due to IP effects and showed the sensitivity of the method to IP parameters.
-
-### WISTEM System and Data Analysis
-The WISTEM system features a 3.5-meter square transmitter loop and a five-turn coincident receiver loop, with equipment such as the transmitter and receivers placed in the loop's center. To address potential influences of the pressure vessel on data, reference measurements are taken with the system suspended 100m above the seafloor to capture the system response.
-
-### Objectives and Methodology
-This study focuses on:
-
-1. **Simulation of Pressure Vessel Effects**:
-   - Using the two-dimensional cylindrical framework in SimPEG (Cockett et al., 2015; Heagy, 2017) and simpegEMIP (Kang, 2016), we simulate the influence of the pressure vessel.
-
-2. **System Response Characterization**:
-   - Deconvolution of reference data with the analytical response of seawater to derive a linear filter that captures the system's response. This filter will be applied in subsequent simulations and inversions.
-
-3. **1D IP Inversion**:
-   - Performing 1D IP inversion using empymod (Werthmüller, 2017) on Fix-2 data containing negative transients.
 
 ### References
-- Japan Organization for Metals and Energy Security (JOGMEC), 2020. [World’s First Successful Excavation of Cobalt-Rich Seabed in the Deep Ocean](https://www.jogmec.go.jp/english/news/release/news_01_000033.html).
-- Morozumi et al, 2020. Characteristics of seafloor hydrothermal deposits investigated by JOGMEC.
-- Bannard, J.E., 1975. Effect of density on the electrical conductance of aqueous sodium chloride solutions. *Journal of Applied Electrochemistry*, 5, 43-53.
-- Nakayama and Saito, 2016. Practical marine TDEM systems using ROV for ocean bottom hydrothermal deposits.
-- Pelton, W.H. et al., 1978. Mineral discrimination and removal of inductive coupling with multifrequency IP. *Geophysics*.
-- Motoori and Heagy, 2024. A synthetic study investigating induced polarization effects on time-domain electromagnetic data for seafloor hydrothermal deposits.
-- Endo, Nakayama and Saito, A., 2024. Effective and practical interpretation of marine transient electromagnetic data (2): Quantitative interpretation.
-- Takakura, 2018. Standardization of resistivity measurement of ore samples taken at seafloor hydrothermal deposits.
-- Cockett et al, 2015. SimPEG: An open-source framework for simulation and gradient-based parameter estimation in geophysical applications.
-- Heagy et al, 2017. A framework for simulation and inversion in electromagnetics.
-- Kang and Oldenburg, D.W., 2016. On recovering distributed IP information from inductive source time-domain electromagnetic data.
-- Werthmüller, 2017. An open-source full 3D electromagnetic modeler for 1D VTI media in Python: empymod.
-- Oldenburg and Li, 2005. Inversion for applied geophysics: A tutorial. *Near-Surface Geophysics*.
-
+- Cockett, R., Kang, S., Heagy, L. J., Pidlisecky, A., & Oldenburg, D. W. (2015). SimPEG: An open source framework for simulation and gradient based parameter estimation in geophysical applications. Computers & Geosciences, 85, 142–154.
+- Heagy, L. J., Cockett, R., Kang, S., Rosenkjaer, G. K., & Oldenburg, D. W. (2017). A framework for simulation and inversion in electromagnetics. Computers & Geosciences, 107, 1–19. 
+- JOGMEC Conducts World’s First Successful Excavation of Cobalt-Rich Seabed in the Deep Ocean;Excavation Test Seeks to Identify Best Practices to Access Essential Green Technology Ingredients While Minimizing Environmental Impact: News Releases | Japan Organization for - - Metals and Energy Security (JOGMEC). (n.d.). Retrieved April 3, 2025, from https://www.jogmec.go.jp/english/news/release/news_01_000033.html
+- Kang, S., & Oldenburg, D. W. (2016). On recovering distributed IP information from inductive source time domain electromagnetic data. Geophysical Journal International, 207(1), 174–196. 
+- MOROZUMI, H., WATANABE, K., SAKURAI, H., HINO, H., KADO, Y., MOTOORI, M., & TENDO, H. (2020). Additional information for characteristics of seafloor hydrothermal deposits investigated by JOGMEC. Shigen-Chishitsu, 70(2), 113–119. 
+- Motoori, M., & Heagy, L. J. (2024). A synthetic study investigating induced polarization effects on time-domain electromagnetic data for Sea-floor hydrothermal deposit. AGU24.
+- Nakayama, K., Moroori, M., & Saito, A. (2019). Application of Time-Domain Electromagnetic Survey for Seafloor Polymetallic Sulphides in the Okinawa Trough. 25th European Meeting of Environmental and Engineering Geophysics, 1–5. 
+- Nakayama, K., & Saito, A. (2016). Practical marine TDEM systems using ROV for the ocean bottom hydrothermal deposits. 2016 Techno-Ocean (Techno-Ocean), 643–647. 
+- NAKAYAMA, K., YAMASHITA, Y., YASUI, M., YAMAZAKI, A., & Akira, S. (2012). Electric and magnetic properties of the sea-floor hydrothermal mineral ore deposits for the marine EM explorations. Proceedings of the SEGJ Conference, 126, 162–165.
+- Oldenburg, D. W., & Li, Y. (2005). Inversion for Applied Geophysics: A Tutorial. In Near-Surface Geophysics. Society of Exploration Geophysicists.
+- Pelton, W. H., Ward, S. H., Hallof, P. G., Sill, W. R., & Nelson, P. H. (1978). MINERAL DISCRIMINATION AND REMOVAL OF INDUCTIVE COUPLING WITH MULTIFREQUENCY IP. GEOPHYSICS, 43(3), 588–609.
+- Werthmüller, D. (2017). An open-source full 3D electromagnetic modeler for 1D VTI media in Python: Empymod. GEOPHYSICS, 82(6), WB9–WB19. 
