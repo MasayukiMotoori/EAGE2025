@@ -42,6 +42,7 @@ project:
     # DC: direct current
     # EM: electromagnetics
   # github:
+  thumbnail: thumbnail.png
   bibliography: EAGE-NS-2025-Abstract.bib
   # keywords:
   #   - Numerical simulations
