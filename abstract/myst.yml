@@ -3,33 +3,32 @@ project:
   id: ubcgif-2025-motoori-et-al-eage-ns
   title:1D inversion of time-domain electromagnetic data with induced polarization effects for a sea-floor hydrothermal deposit
   description: Presentation given at the
+  affiliations:
+    ubc:
+      name: "Geophysical Inversion Facility, University of British Columbia, Vancouver, British Columbia"
+    jogmec:
+      name: "Japan Organization for Metals and Energy Security"
+
   authors:
     - name: Masayuki Motoori
       email: masayuki.motoori@eoas.ubc.ca
       corresponding: true
       orcid: 0009-0006-1889-8914
-      affiliation:
-        id: ubc
-        name: Geophysical Inversion Facility, University of British Columbia, Vancouver, British Columbia
-      affiliation:
-        id: jogmec
-        name: Japan Organization for Metals and Energy Security
+      affiliations: [ubc, jogmec]
     - name: Lindsey J. Heagy
       email: lheagy@eoas.ubc.ca
       orcid: 0000-0002-1551-5926
-      affiliation:
-        id: ubc
-        name: Geophysical Inversion Facility, University of British Columbia, Vancouver, British Columbia
+      affiliations: [ubc]
     - name: Gosuke Hoshino
-      affiliation: jogmec
+      affiliations: [jogmec]
     - name: Kunihito Yamamoto
-      affiliation: jogmec
+      affiliations: [jogmec]
     - name: Haruhisa Morozumi 
-      affiliation: jogmec
+      affiliations: [jogmec]
     - name: Kunpei Nagase 
-      affiliation: jogmec
+      affiliations: [jogmec]
     - name: Shingo Sugimoto
-      affiliation: jogmec
+      affiliations: [jogmec]
   # subject: Electromagnetics
   venue:
     title:  "NSG 2025: 6th Conference on Geophysics for Mineral Exploration and Mining"
