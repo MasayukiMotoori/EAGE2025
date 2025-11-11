@@ -43,11 +43,11 @@ project:
     # EM: electromagnetics
   # github:
   bibliography: EAGE-NS-2025-Abstract.bib
-  keywords:
-    - Numerical simulations
-    - Inversion
-    - Computational methods
-    - Software
+  # keywords:
+  #   - Numerical simulations
+  #   - Inversion
+  #   - Computational methods
+  #   - Software
 Main objectives: Estimate induced polarization parameters for hydrothermal deposits from deep-sea time-domain electromagnetic data
 New aspects: Estimate a linear filter characterizing new marine TEM system response, Marine EM inversion with IP parameters, Open-source software application 
 site:
