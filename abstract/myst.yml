@@ -1,0 +1,69 @@
+version: 1
+project:
+  id: ubcgif-2023-heagy-et-al-aem
+  title: Advances in open-source software for 3D electromagnetics using SimPEG
+  description: Presentation given at the
+  authors:
+    - name: Lindsey J. Heagy
+      email: lheagy@eoas.ubc.ca
+      corresponding: true
+      orcid: 0000-0002-1551-5926
+      affiliation:
+        id: ubc
+        name: Geophysical Inversion Facility, University of British Columbia, Vancouver, British Columbia
+    - name: Johnathan Kuttai
+      email: jkutt@eoas.ubc.ca
+      # orcid: ORCID
+      affiliation: ubc
+    - name: Devin Cowan
+      affiliation: ubc
+      email: dcowan@eoas.ubc.ca
+      orcid: ORCID
+    - name: Joseph Capriotti
+      affiliation: ubc
+      orcid: 0000-0003-4762-5377
+    - name: Seogi Kang
+      affiliation:
+        id: stanford
+        name: Department of Geophysics, Stanford University
+      orcid: 0000-0003-4762-5377
+    - name: Dominique Fournier
+      affiliation:
+        id: mira
+        name: Mira Geoscience
+      email: dominiquef@mirageoscience.com
+      orcid: 0000-0003-3285-3465
+    - name: Douglas W. Oldenburg
+      affiliation: ubc
+      email: doug@eoas.ubc.ca
+      orcid: 0000-0002-4327-2124
+  # banner: banner.png
+  thumbnail: thumbnail.png
+  # subject: Electromagnetics
+  venue:
+    title: "AEM 2023: 8th International Airborne Electromagnetics Workshop"
+    # url: CONFERENCE URL
+  # license: CC-BY-4.0
+  # open_access: true
+  # doi: DOI
+  date: 2023-09-07
+  abbreviations:
+    # DC: direct current
+    # EM: electromagnetics
+  # github:
+  bibliography: refs.bib
+  keywords:
+    - Numerical simulations
+    - Inversion
+    - Computational methods
+    - Software
+site:
+  template: article-theme
+  actions:
+    - title: pdf
+      url: ./AEM-2023-abstract.pdf
+      static: true
+    - title: slides
+      url: ./Heagy-2023-AEM.pdf
+      static: true
+  # domains: []
