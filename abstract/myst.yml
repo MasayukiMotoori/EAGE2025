@@ -12,7 +12,7 @@ project:
         id: ubc
         name: Geophysical Inversion Facility, University of British Columbia, Vancouver, British Columbia
       affiliation:
-        id: jogmecn
+        id: jogmec
         name: Japan Organization for Metals and Energy Security
     - name: Lindsey J. Heagy
       email: lheagy@eoas.ubc.ca
@@ -43,11 +43,13 @@ project:
     # EM: electromagnetics
   # github:
   bibliography: EAGE-NS-2025-Abstract.bib
-  # keywords:
-  #   - Numerical simulations
-  #   - Inversion
-  #   - Computational methods
-  #   - Software
+  keywords:
+    - Numerical simulations
+    - Inversion
+    - Computational methods
+    - Software
+Main objectives: Estimate induced polarization parameters for hydrothermal deposits from deep-sea time-domain electromagnetic data
+New aspects: Estimate a linear filter characterizing new marine TEM system response, Marine EM inversion with IP parameters, Open-source software application 
 site:
   template: article-theme
   actions:
