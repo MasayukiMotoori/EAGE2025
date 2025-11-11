@@ -1,69 +1,57 @@
 version: 1
 project:
-  id: ubcgif-2023-heagy-et-al-aem
-  title: Advances in open-source software for 3D electromagnetics using SimPEG
+  id: ubcgif-2025-motoori-et-al-eage-ns
+  title:1D inversion of time-domain electromagnetic data with induced polarization effects for a sea-floor hydrothermal deposit
   description: Presentation given at the
   authors:
+    - name: Masayuki Motoori
+      email: masayuki.motoori@eoas.ubc.ca
+      corresponding: true
+      orcid: 0009-0006-1889-8914
+      affiliation:
+        id: ubc
+        name: Geophysical Inversion Facility, University of British Columbia, Vancouver, British Columbia
+      affiliation:
+        id: jogmecn
+        name: Japan Organization for Metals and Energy Security
     - name: Lindsey J. Heagy
       email: lheagy@eoas.ubc.ca
-      corresponding: true
       orcid: 0000-0002-1551-5926
       affiliation:
         id: ubc
         name: Geophysical Inversion Facility, University of British Columbia, Vancouver, British Columbia
-    - name: Johnathan Kuttai
-      email: jkutt@eoas.ubc.ca
-      # orcid: ORCID
-      affiliation: ubc
-    - name: Devin Cowan
-      affiliation: ubc
-      email: dcowan@eoas.ubc.ca
-      orcid: ORCID
-    - name: Joseph Capriotti
-      affiliation: ubc
-      orcid: 0000-0003-4762-5377
-    - name: Seogi Kang
-      affiliation:
-        id: stanford
-        name: Department of Geophysics, Stanford University
-      orcid: 0000-0003-4762-5377
-    - name: Dominique Fournier
-      affiliation:
-        id: mira
-        name: Mira Geoscience
-      email: dominiquef@mirageoscience.com
-      orcid: 0000-0003-3285-3465
-    - name: Douglas W. Oldenburg
-      affiliation: ubc
-      email: doug@eoas.ubc.ca
-      orcid: 0000-0002-4327-2124
-  # banner: banner.png
-  thumbnail: thumbnail.png
+    - name: Gosuke Hoshino
+      affiliation: jogmec
+    - name: Kunihito Yamamoto
+      affiliation: jogmec
+    - name: Haruhisa Morozumi 
+      affiliation: jogmec
+    - name: Kunpei Nagase 
+      affiliation: jogmec
+    - name: Shingo Sugimoto
+      affiliation: jogmec
   # subject: Electromagnetics
   venue:
-    title: "AEM 2023: 8th International Airborne Electromagnetics Workshop"
-    # url: CONFERENCE URL
+    title:  "NSG 2025: 6th Conference on Geophysics for Mineral Exploration and Mining"
+  # url: CONFERENCE URL
   # license: CC-BY-4.0
   # open_access: true
-  # doi: DOI
-  date: 2023-09-07
+  doi: "10.3997/2214-4609.202520037"
+  date: 2025-09-10
   abbreviations:
     # DC: direct current
     # EM: electromagnetics
   # github:
-  bibliography: refs.bib
-  keywords:
-    - Numerical simulations
-    - Inversion
-    - Computational methods
-    - Software
+  bibliography: EAGE-NS-2025-Abstract.bib
+  # keywords:
+  #   - Numerical simulations
+  #   - Inversion
+  #   - Computational methods
+  #   - Software
 site:
   template: article-theme
   actions:
     - title: pdf
-      url: ./AEM-2023-abstract.pdf
-      static: true
-    - title: slides
-      url: ./Heagy-2023-AEM.pdf
+      url: ./EAGE-NS-2025-Abstract.pdf
       static: true
   # domains: []
