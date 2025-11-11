@@ -1,12 +1,10 @@
 **1D inversion of time-domain electromagnetic data with induced
 polarization effects for a sea-floor hydrothermal deposit**
 
-*Masayuki Motoori^1,2^, Lindsey J. Heagy^1^, Gosuke Hoshino^2^, Kunihito
-Yamamoto^2^, Haruhisa Morozumi^2^, Kunpei Nagase^2^, Shingo Sugimoto^2^*
+**Masayuki Motoori¹², Lindsey J. Heagy¹, Gosuke Hoshino², Kunihito Yamamoto², Haruhisa Morozumi², Kunpei Nagase², Shingo Sugimoto²**  
+¹ University of British Columbia Geophysical Inversion Facility  
+² Japan Organization for Metals and Energy Security (JOGMEC)
 
-*1 University of British Columbia Geophysical Inversion Facility*
-
-*2 Japan Organization for Metals and Energy Security (JOGMEC)*
 
 **Summary**
 
