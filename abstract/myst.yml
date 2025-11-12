@@ -1,7 +1,7 @@
 version: 1
 project:
   id: ubcgif-2025-motoori-et-al-eage-ns
-  title:1D inversion of time-domain electromagnetic data with induced polarization effects for a sea-floor hydrothermal deposit
+  title: 1D inversion of time-domain electromagnetic data with induced polarization effects for a sea-floor hydrothermal deposit
   description: Presentation given at the
   affiliations:
     ubc:
@@ -38,8 +38,11 @@ project:
   doi: "10.3997/2214-4609.202520037"
   date: 2025-09-10
   abbreviations:
-    # DC: direct current
-    # EM: electromagnetics
+    TEM: time-domain electromagnetic methods
+    IP: induced polarization effects
+    PV: pressure vessel
+    WISTEM: waseda integrated seafloor time-domain electromagnetic exploration system
+    ROV: Remotely Operated Vehicle
   # github:
   thumbnail: thumbnail.jpg
   banner: banner.jpg
